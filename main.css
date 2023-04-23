@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header{
+    background: url('https://images.unsplash.com/photo-1634979149798-e9a118734e93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo a{
+    font-size: 24px;
+}
+
+.header-info{
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+    width: 500px;
+}
+
+.header-info h3{
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.header-btn {
+    margin-top: 1rem;
+}
+
+.header-btn input{
+    padding: 0.5rem;
+    width: 230px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header-btn button{
+    padding: 0.5rem;
+    width: 150px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+}
+
+/* end header */
+
+/* about */
+.about{
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.about-con{
+    padding: 0 10rem;
+}
+
+.about-title {
+    color: navy;
+    font-size: 2rem;
+}
+
+.about-desc{
+    color: #808080;
+    margin: 1rem 0;
+}
+
+.about-img{
+    margin: 2rem 0;
+}
+/* end about */
