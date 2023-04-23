@@ -89,3 +89,65 @@ nav a{
     margin: 2rem 0;
 }
 /* end about */
+
+/* pricing */
+.pricing{
+    background-color: rgb(194, 194, 194);
+    color: black;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.pricing-info h3{
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.pricing-info p{
+    margin: 1rem 0;
+}
+
+.pricing-table{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.pricing-box{
+    background: white;
+    color: black;
+}
+
+.pricing-box-title{
+    background-color: #e4e4e4;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pricing-box-info{
+    padding: 1rem ;
+}
+
+.pricing-box-info p{
+    margin: .5rem 0;
+}
+
+.price-blue{
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.pricing-more-info{
+    margin-top: 2rem;
+    display: inline-block;
+    background-color: rgb(243, 241, 100);
+    padding: 1rem;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/* end pricing */
