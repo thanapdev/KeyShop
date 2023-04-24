@@ -176,6 +176,7 @@ nav a{
     grid-template-columns: repeat(3,1fr);
     grid-gap: 1rem;
     text-align: left;
+    position: relative;
 }
 
 .clients-img {
@@ -185,9 +186,31 @@ nav a{
 }
 
 .clients-img img{
-    width: 30%;
+    width: 30% !important;
     border-radius: 100%;
     margin-right: 1rem;
+}
+
+.owl-prev{
+    position: absolute;
+    left: -3rem;
+    top: 3.5rem;
+    
+}
+
+.owl-prev span{
+    font-size: 3rem;
+}
+
+.owl-next{
+    position: absolute;
+    right: -3rem;
+    top: 3.5rem;
+    
+}
+
+.owl-next span{
+    font-size: 3rem;
 }
 
 /* end clients */

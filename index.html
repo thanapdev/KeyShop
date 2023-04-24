@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Key Shop</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
 </head>
 <body>
     <header>
@@ -113,7 +115,31 @@
                 <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id voluptatibus quas facere possimus atque, quaerat quisquam ipsam? Excepturi, quam a.</p>
 
             </div>
-            <div class="clients-grid">
+            <div class="clients-grid owl-carousel owl-theme">
+                <div class="clients-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit voluptates, omnis nam mollitia veritatis corrupti recusandae et tenetur quibusdam repellendus, possimus reiciendis harum, expedita nisi a rerum! Illum, odit!</p>
+                    <div class="clients-img">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        <p>john doe</p>
+                    </div>
+                </div>
+
+                <div class="clients-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit voluptates, omnis nam mollitia veritatis corrupti recusandae et tenetur quibusdam repellendus, possimus reiciendis harum, expedita nisi a rerum! Illum, odit!</p>
+                    <div class="clients-img">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        <p>john doe</p>
+                    </div>
+                </div>
+
+                <div class="clients-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit voluptates, omnis nam mollitia veritatis corrupti recusandae et tenetur quibusdam repellendus, possimus reiciendis harum, expedita nisi a rerum! Illum, odit!</p>
+                    <div class="clients-img">
+                        <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        <p>john doe</p>
+                    </div>
+                </div>
+
                 <div class="clients-box">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis odit voluptates, omnis nam mollitia veritatis corrupti recusandae et tenetur quibusdam repellendus, possimus reiciendis harum, expedita nisi a rerum! Illum, odit!</p>
                     <div class="clients-img">
@@ -173,5 +199,17 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".owl-carousel").owlCarousel({
+                nav : true,
+                autoplay : true,
+                loop : true
+            });
+        });
+    </script>
 </body>
 </html>
