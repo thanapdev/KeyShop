@@ -151,3 +151,46 @@ nav a{
     border-radius: 10px;
 }
 /* end pricing */
+
+/* clients */
+.clients{
+ padding: 3rem 0;
+ text-align: center;
+}
+
+.clients-title h3{
+    color: #000;
+    font-size: 2rem;
+    font-weight: lighter;
+
+}
+
+.clients-title p{
+    color: #000;
+    margin: 1rem 0;
+}
+
+.clients-grid{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+    text-align: left;
+}
+
+.clients-img {
+   display: flex;
+   align-items: center;
+   margin-top: 2rem;
+}
+
+.clients-img img{
+    width: 30%;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+/* end clients */
+
+/* news */
+/* end news */
