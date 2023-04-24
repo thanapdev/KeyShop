@@ -193,4 +193,40 @@ nav a{
 /* end clients */
 
 /* news */
+.newsletter{
+    background: url('https://plus.unsplash.com/premium_photo-1678112179637-c49ab8b21ae6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.newsletter-title{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    color: white;
+}
+
+.newsletter-title h3{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.newsletter-title input{
+    padding: 0.5rem;
+    width: 350px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+.newsletter-title button{
+    padding: 0.5rem;
+    width: 150px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+}
 /* end news */
